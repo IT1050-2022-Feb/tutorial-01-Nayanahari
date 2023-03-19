@@ -14,7 +14,7 @@ int main() {
    printf("Enter the mark2 : ");
    scanf("%d", &  mark2);
    
-   avr = ( mark1 + mark2 );
+   avr = ( mark1 + mark2 )/ 2.0 ;
    printf("Average is : %.2f" , avg );
    
   return 0;
